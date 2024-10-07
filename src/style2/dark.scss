@@ -1,0 +1,149 @@
+.app.dark{
+    background-color: #222;
+    color: rgb(156,156,156);
+    .input{
+        background-color: transparent;
+    }
+
+
+    
+    .navbar{
+        background-color: #222;
+        color: rgb(156,156,156);
+        border-bottom: 2px solid  rgb(92, 92, 92);
+        
+        .search{
+            border: 1px solid rgb(76, 76, 76);
+        }
+    }
+    .listContainer{
+
+        .datatable{
+           
+            .datagrid{
+                color: gray;
+                border: none;
+            }
+
+            .datatableTitle{
+                color: gray;
+                .link{
+                  color: rgb(150, 250, 150);
+                  border: 1px solid rgba(141, 248, 141, 0.256);
+                }
+              }
+        
+            .cellWithStatus{
+                &.active{
+                    color: rgb(145, 247, 145);
+                    background-color: rgba(83, 231, 83, 0.151);
+                }
+                &.pending{
+                    color: rgb(242, 204, 107);
+                    background-color: rgba(218, 165, 32, 0.151);
+                }
+                &.passive{
+                    color: rgb(247, 115, 141);
+                    background-color: rgba(230, 92, 92, 0.151);
+                }   
+            }
+        
+            .cellAction{
+                .viewButton{
+                    color: rgb(47, 217, 247);
+                    border: 1px solid rgba(11, 163, 218, 0.347);
+                }
+                .deleteButton{
+                    color: rgb(254, 111, 140);
+                    border: 1px solid rgba(226, 76, 106, 0.486);
+                }
+            }
+        }
+    }
+    .sidebar{
+        background-color: #222;
+        color: rgb(156,156,156);
+        border-right: 2px solid  rgb(92, 92, 92);
+        hr{
+            height: 0;
+            border:0.5px solid  rgb(92, 92, 92);
+        }
+
+       
+    .top{
+        .logo{
+            color: #bdacfc81;
+        }
+    }
+
+    
+    .center{
+        ul{
+            li{
+                &:hover{
+                    background-color: #39393b94;
+                    span{
+                        color: white;
+                    }
+                    .icon{
+                        color: #f6f5f9;
+                    }
+                   
+                }
+                .icon{
+                    font-size: 18px;
+                    color: #b7a3fe;
+
+                }
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+
+        .colorOptions{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+            margin-left: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+           
+            
+        }
+    }
+        
+
+       
+        
+
+    }
+    .table{
+        background-color: #222;
+        
+        .tableCell{
+            color: gray;
+        }
+    }
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+        input{
+        background-color: transparent;
+    }
+
+
+    
+    
+
+}
